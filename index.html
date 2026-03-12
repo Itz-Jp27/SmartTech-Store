@@ -21,7 +21,7 @@
 
 <div class="controls">
 
-<input id="search" type="text" placeholder="Search Phones">
+<input id="search" class="search-input" type="text" placeholder="🔍 Search phones...">
 
 <select id="sort">
 <option value="">Sort</option>
@@ -37,7 +37,6 @@
 
 </header>
 
-
 <section class="hero">
   <div class="hero-content">
     <h2>Next-Gen Smartphones</h2>
@@ -46,6 +45,18 @@
   </div>
 </section>
 
+<section class="featured">
+<h2>🔥 Featured Phone</h2>
+<div class="featured-card">
+<img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=600">
+<div class="featured-info">
+<h3>iPhone 15 Pro</h3>
+<p>Powerful A17 Pro chip, Pro camera system and stunning titanium design.</p>
+<button onclick="filterCategory('apple')">Shop Apple</button>
+</div>
+</div>
+</section>
+  
 <div class="filters">
 
 <button onclick="filterCategory('all')">All</button>
@@ -88,3 +99,4 @@
 </body>
 
 </html>
+
