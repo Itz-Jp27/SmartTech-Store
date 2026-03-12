@@ -107,9 +107,6 @@ img:"https://images.unsplash.com/photo-1598327106026-d9521da673d1?w=500"
 
 ];
 // duplicate to reach 50+
-while(products.length < 40){
-products.push({...products[Math.floor(Math.random()*products.length)]});
-}
 
 // RENDER PRODUCTS
 
@@ -268,11 +265,15 @@ document.getElementById("search").addEventListener("keyup",function(){
 
 let value = this.value.toLowerCase();
 
-let filtered = products.filter(p => p.name.toLowerCase().includes(value));
+let filtered = products.filter(p =>
+p.name.toLowerCase().includes(value) ||
+p.category.toLowerCase().includes(value)
+);
 
 renderProducts(filtered);
 
-document.getElementById("no-products").style.display = filtered.length ? "none" : "block";
+document.getElementById("no-products").style.display =
+filtered.length ? "none" : "block";
 
 });
 
@@ -328,4 +329,5 @@ toggle.innerText="🌙";
 
 
 updateCart();
+
 
