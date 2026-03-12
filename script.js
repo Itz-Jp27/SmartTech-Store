@@ -1,9 +1,5 @@
 // PRODUCTS
-
 const products = [
-
-const products = [
-
 {
 name:"iPhone 15",
 price:79999,
@@ -111,10 +107,9 @@ img:"https://images.unsplash.com/photo-1598327106026-d9521da673d1?w=500"
 
 ];
 // duplicate to reach 50+
-while(products.length < 55){
+while(products.length < 40){
 products.push({...products[Math.floor(Math.random()*products.length)]});
 }
-
 
 // RENDER PRODUCTS
 
@@ -333,3 +328,4 @@ toggle.innerText="🌙";
 
 
 updateCart();
+
