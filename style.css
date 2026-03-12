@@ -346,20 +346,99 @@ display:none;
 }
 
 /* MOBILE */
+/* MOBILE RESPONSIVE */
 
-@media(max-width:768px){
+@media (max-width: 900px){
 
-.hero-content h2{
-font-size:40px;
+/* header */
+header{
+flex-direction:column;
+gap:10px;
+padding:15px;
+text-align:center;
 }
 
-.products{
+/* search */
+.search-input{
+width:100%;
+max-width:300px;
+}
+
+/* hero section */
+.hero{
+padding:40px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:28px;
+}
+
+.hero p{
+font-size:14px;
+}
+
+/* featured phone section */
+
+.featured-card{
+flex-direction:column;
+text-align:center;
+}
+
+.featured-card img{
+width:200px;
+}
+
+/* product grid */
+
+#product-list{
+grid-template-columns:repeat(2,1fr);
+gap:15px;
 padding:20px;
 }
 
-.cart{
+/* product card */
+
+.product{
+padding:15px;
+}
+
+.product img{
+height:180px;
+object-fit:cover;
+}
+
+.product h3{
+font-size:15px;
+}
+
+/* buttons */
+
+.product button{
+padding:10px;
+font-size:14px;
+}
+
+}
+
+
+/* EXTRA SMALL PHONES */
+
+@media (max-width:500px){
+#product-list{
+grid-template-columns:1fr;
+}
+.hero h1{
+font-size:22px;
+}
+.featured-card img{
+width:160px;
+}
+}
+@media (max-width:600px){
+#cart{
 width:100%;
 }
-
-
 }
+
+
