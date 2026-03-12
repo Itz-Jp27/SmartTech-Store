@@ -2,60 +2,111 @@
 
 const products = [
 
+const products = [
+
 {
 name:"iPhone 15",
 price:79999,
 category:"apple",
-img:"https://images.unsplash.com/photo-1695048133142-1a20484d2569"
+img:"https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500"
 },
 
 {
-name:"iPhone 14 Pro",
-price:99999,
+name:"iPhone 15 Pro",
+price:134999,
 category:"apple",
-img:"https://images.unsplash.com/photo-1664478546385-8e7caa3cfc6f"
+img:"https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500"
+},
+
+{
+name:"iPhone 14",
+price:69999,
+category:"apple",
+img:"https://images.unsplash.com/photo-1603898037225-1d3d0a7f6209?w=500"
 },
 
 {
 name:"Samsung Galaxy S23",
 price:74999,
 category:"samsung",
-img:"https://images.unsplash.com/photo-1610945265064-0e34e5519bbf"
+img:"https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500"
+},
+
+{
+name:"Samsung Galaxy S24",
+price:85999,
+category:"samsung",
+img:"https://images.unsplash.com/photo-1580910051074-3eb694886505?w=500"
 },
 
 {
 name:"Samsung Galaxy Z Fold",
 price:149999,
 category:"samsung",
-img:"https://images.unsplash.com/photo-1598327105666-5b89351aff97"
+img:"https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=500"
 },
 
 {
 name:"Xiaomi 13 Pro",
 price:59999,
 category:"xiaomi",
-img:"https://images.unsplash.com/photo-1580910051074-3eb694886505"
+img:"https://images.unsplash.com/photo-1510552776732-01acc3a2f54c?w=500"
 },
 
 {
-name:"Redmi Note 13",
-price:18999,
-category:"budget",
-img:"https://images.unsplash.com/photo-1510552776732-01acc3a2f54c"
+name:"Redmi Note 13 Pro",
+price:23999,
+category:"xiaomi",
+img:"https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=500"
 },
 
 {
-name:"Asus ROG Phone",
+name:"Poco F5",
+price:29999,
+category:"xiaomi",
+img:"https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=500"
+},
+
+{
+name:"Asus ROG Phone 7",
 price:69999,
 category:"gaming",
-img:"https://images.unsplash.com/photo-1556656793-08538906a9f8"
+img:"https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=500"
 },
 
 {
-name:"iQOO Neo",
+name:"RedMagic 8 Pro",
+price:64999,
+category:"gaming",
+img:"https://images.unsplash.com/photo-1589492477829-5e65395b66cc?w=500"
+},
+
+{
+name:"iQOO Neo 7",
 price:32999,
 category:"gaming",
-img:"https://images.unsplash.com/photo-1603898037225-1d3d0a7f6209"
+img:"https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=500"
+},
+
+{
+name:"Realme Narzo 60",
+price:14999,
+category:"budget",
+img:"https://images.unsplash.com/photo-1567581935884-3349723552ca?w=500"
+},
+
+{
+name:"Redmi 12",
+price:12999,
+category:"budget",
+img:"https://images.unsplash.com/photo-1512499617640-c2f999098c01?w=500"
+},
+
+{
+name:"Samsung Galaxy A14",
+price:16999,
+category:"budget",
+img:"https://images.unsplash.com/photo-1598327106026-d9521da673d1?w=500"
 }
 
 ];
@@ -279,5 +330,6 @@ toggle.innerText="🌙";
 }
 
 };
+
 
 updateCart();
